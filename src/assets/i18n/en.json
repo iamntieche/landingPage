@@ -1,0 +1,149 @@
+{
+    "welcomeMessage": "Thanks for joining, {{ firstName }}! It's great to have you!",
+    "login": {
+      "username": "Enter your user name",
+      "password": "Enter your Password",
+      "forgotPassword": "Forgot Password",
+      "logIn":"Log In",
+      "haveNotAccount":"Create an account",
+      "register": "Register",
+      "company":"Company Code",
+      "lenght":"Must contain 9 characters (1 lower case letter, 1 upper case letter)",
+      "usernameError":"Must contain 8 characters (1 lower case letter, 1 upper case letter)",
+      "pwd":"Must be at least 8 characters (1 number, 1 in Capital Case, in Small Case, 1 Special Character )"
+    },
+    "forgotPassword":{
+      "send" : "Send",
+      "backTo":"Back to",
+      "verify":" Verify"
+    },
+    "register":{
+      
+      "company":{
+        "title":"Name of your Business",
+        "required": "company name is required",
+        "parttern":"Provide company name without spacial caracters"
+      },
+      "managerName":{
+        "title":"Name",
+        "required": " name is required",
+        "parttern":"Provide  name without spacial caracters"
+      },
+      "email":{
+        "title":"Email",
+        "required": "email is required",
+        "parttern":"Provide a valid email address"
+      },
+      "phone":{
+        "title":"Phone",
+        "required": "phone is required",
+        "parttern":"Invalid Phone Number"
+      },
+      "countryLabel":"Select your country",
+      "alreadyRegistered": "Already have an account",
+      "caracterLength":"Must be at least 8 characters",
+      "leastNumber": " Must contain at least 1 number",
+      "leastCapital":"Must contain at least 1 in Capital Case",
+      "smallCase":"Must contain at least 1 Letter in Small Case",
+      "specialCaracter":"Must contain at least 1 Special Character"
+     
+    },
+    "verify":{
+      "lenght": "Must be equal to 6 digits",
+      "number": "Must be only numbers"
+    },
+    "activities":{
+      "choose":"Choose your business area",
+      "configuration":"Configuration de votre espace  encours"
+    },
+    "menu":{
+      "dashboard":"Dashboard",
+      "product":{
+        "title":"Products",
+        "addProduct":"Add Product",
+        "productList":"Product List",
+        "category":"Category",
+        "brand":"Brand",
+        "unitValue":"Unit/Value",
+        "barCode":"Generate Barcode/QrCode",
+        "addAdjustment":"Add Adjustment",
+        "ajustmentList":"Adjustment List"
+      },
+      "trading":{
+        "title":"Trading",
+        "sale":"Sales",
+        "newSale":"New Sales",
+        "postSale":"POS Sales",
+        "salesList":"Sales List",
+        "salesReturn":"Sales Returns"
+      },
+      "purchase":{
+        "title":"Purchase",
+        "add":"Add Purchase",
+        "manage":"Manage Purchase",
+        "return":"Purchase Returns"
+      },
+      "invoice":{
+        "title":"Invoice/Billing",
+        "sale":"Sale Invoice",
+        "saleList":"Sale List Invoice",
+        "purchase":"Purchase Invoice",
+        "purchaseList":"Purchase List Invoice",
+        "expensive":"Expense Invoice",
+        "expensiveList":"Expense List Invoice"
+      },
+      "expense":{
+        "title":"Expense",
+        "add":"Add Expense",
+        "list":"Expense List",
+        "category":"Category",
+        "paiement":"Payment Expense"
+      },
+      "warehouse":{
+        "title":"Point Of Sell",
+        "add":"Add New Point Of Sell"
+      },
+      "people":{
+        "title":"Third",
+        "addCustomer":"Add Customer",
+        "customerList":"Customer List",
+        "addSupplier":"Add Supplier",
+        "supplierList":"Supplier List",
+        "addBiller":"Add Biller",
+        "billerList":"Biller List"
+      },
+      "userManagement":{
+        "title":"User Management",
+        "addUser":"Add User",
+        "userList":"User List",
+        "createRole":"Create Role"
+      },
+      "report":{
+        "title":"Reports",
+        "sale":"Sales Report",
+        "purchase":"Purchase Report",
+        "payment":"Payment Report",
+        "product":"Product Report",
+        "stock":"Stock Report",
+        "expense":"Expense Report",
+        "user":"User Report",
+        "customer":"Customer Report",
+        "warehouse":"Warehouse Report",
+        "supplier":"Supplier Report",
+        "discount":"Discount Report",
+        "tax":"Tax Report",
+        "shipping":"Shipping Charge"
+      },
+      "transfert":{
+        "title":"Transfer",
+        "add":"Add Transfer",
+        "list":"Transfer List"
+      },
+      "stock":{
+        "title":"Stock"
+      },
+      "administration":{
+        "title":"Administration Tools"
+      }
+    }
+  }

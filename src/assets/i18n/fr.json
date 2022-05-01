@@ -1,0 +1,147 @@
+{
+    "welcomeMessage": "Merci de nous rejoindre, {{ firstName }}!",
+    "login": {
+      "username": "Entrer votre nom d'utilisateur",
+      "password": "Entrer votre mot de passe",
+      "forgotPassword": "Mot de passe oublié",
+      "logIn":"Connexion",
+      "haveNotAccount":"Créer un compte",
+      "register": "S'inscrire",
+      "company":"Code Entreprise ",
+      "lenght":"Doit contenir 9 caractères (1 lettre minuscule, 1 lettre majuscule)",
+      "usernameError":"Doit contenir 8 caractères (1 lettre minuscule, 1 lettre majuscule)",
+      "pwd":"Doit comporter au moins 8 caractères (1 chiffre, 1 en majuscule, 1 en minuscule, 1 caractère spécial)"
+    },
+    "forgotPassword":{
+      "send" : "Envoyer",
+      "backTo":"Retour à la page de ",
+      "verify":"Verifier le compte"
+    },
+    "register":{  
+      "company":{
+        "title":"Nom de votre structure",
+        "required": "Nom de l'entreprise réquis",
+        "parttern":"Entrer le nom de votre structure sans caractères spéciaux"
+      },
+      "managerName":{
+        "title":"Nom",
+        "required": "Nom réquis",
+        "parttern":"Entrer le nom de l'entreprise sans caractères spéciaux"
+      },
+      "email":{
+        "title":"Adresse Email",
+        "required": "Adresse Email réquis",
+        "parttern":"Entrer une adresse email valide"
+      },
+      "phone":{
+        "title":"Téléphone",
+        "required": "Numéro de téléphone réquis",
+        "parttern":"Numéro de téléphone invalid"
+      },
+      "countryLabel":"Selectionner votre pays",
+      "alreadyRegistered": "Vous avez déjà un compte", 
+      "caracterLength":"Doit comporter au moins 8 caractères",
+      "leastNumber": "Doit contenir au moins 1 chiffre",
+      "leastCapital":"Doit contenir au moins 1 lettre en majuscule",
+      "smallCase":"Doit contenir au moins 1 lettre en minuscule",
+      "specialCaracter":"Doit contenir au moins 1 caractère spécial"
+    },
+    "verify":{
+      "lenght": "Doit être égal à 6 chiffres",
+      "number": "Doit être uniquement des chiffres"
+    },
+    "activities":{
+      "choose":"Choisir votre domaine d'activité",
+      "configuration":"Configuration of your space"
+    },
+    "menu":{
+      "dashboard":"Tableau de bord",
+      "product":{
+        "title":"Produits",
+        "addProduct":"Ajouter un Produit",
+        "productList":"Liste des produits",
+        "category":"Categories",
+        "brand":"Marques",
+        "unitValue":"Unité/Valeur",
+        "barCode":"Genérer un code bare/QrCode",
+        "addAdjustment":"Ajouter un ajustement",
+        "ajustmentList":"Ajustement"
+      },
+      "trading":{
+        "title":"Commerce",
+        "sale":"Ventes",
+        "newSale":"Nouvelle Vente",
+        "postSale":"Point de Vente",
+        "salesList":"Liste des Ventes",
+        "salesReturn":"Retour des Ventes"
+      },
+      "purchase":{
+        "title":"Achat",
+        "add":"Ajouter un achat",
+        "manage":"Gérer les Achats",
+        "return":" Retour des Achats"
+      },
+      "invoice":{
+        "title":"Facture/Facturation",
+        "sale":"Facture de Vente",
+        "saleList":"Liste Facture des Ventes",
+        "purchase":"Facture d'Achat",
+        "purchaseList":"List Facture d'Achats",
+        "expensive":"Facture de dépenses",
+        "expensiveList":"Liste Facture de dépenses"
+      },
+      "expense":{
+        "title":"Dépense",
+        "add":"Ajouter une Dépense",
+        "list":"Liste des Dépenses",
+        "category":"Category des Dépenses",
+        "paiement":"Paiement des Dépenses"
+      },
+      "warehouse":{
+        "title":"Point De Vente",
+        "add":"Ajouter Point de vente"
+      },
+      "people":{
+        "title":"Tiers",
+        "addCustomer":"Ajouter un Client",
+        "customerList":"Liste des Clients",
+        "addSupplier":"Ajouter un fournisseur",
+        "supplierList":"Liste des Fournisseurs",
+        "addBiller":"Ajouter un émétteur de factures",
+        "billerList":"Liste des Facturiers"
+      },
+      "userManagement":{
+        "title":"Gestion des Utilisateur",
+        "addUser":"Ajouter un utilisateur",
+        "userList":"Liste des Utilisateurs",
+        "createRole":"Créer un Rôle"
+      },
+      "report":{
+        "title":"Rapport",
+        "sale":"Rapport des Ventes",
+        "purchase":"Rapport des Achats",
+        "payment":"Rapport des Paiements",
+        "product":"Rapport des Produits",
+        "stock":"Rapport des Stocks",
+        "expense":"Rapport des dépenses",
+        "user":"Rapport des utilisateurs",
+        "customer":"Rapport des Clients",
+        "warehouse":"Rapport des Points de vente",
+        "supplier":"Rapport des Fournisseurs",
+        "discount":"Rapport des Reductions",
+        "tax":"Rapport des Taxes",
+        "shipping":"Frais de Port"
+      },
+      "transfert":{
+        "title":"Transfert",
+        "add":"Ajouter un Transfert",
+        "list":"Liste des Transferts"
+      },
+      "stock":{
+        "title":"Gestion de Stock"
+      },
+      "administration":{
+        "title":"Outils d'administration"
+      }
+    }
+  }

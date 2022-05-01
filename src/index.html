@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nteinsoft</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="assets/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/bootstrap.css" />
+	<link rel="stylesheet" href="assets/css/animate.css" media="all" />
+	<link rel="stylesheet" href="assets/css/slick.css" />
+	<link rel="stylesheet" href="assets/css/custom.css" />
+	<link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body class="font-primary bg-gray-borderSix"> 
+  <app-root></app-root>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="./assets/js/wow.min.js"></script>
+  <script src="./assets/js/slick.js"></script>
+  <script>
+      function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+      }
+  </script>
+  <script>
+      $(function () {
+          $("#ddd").on("click", function () {
+
+              $("#user-login-wrapper").addClass("wide");
+          });
+          $(document).on("click", function (e) {
+              if ($(e.target).is("#user-login-wrapper") == false && $(e.target).is('#ddd') == false) {
+                  $("#user-login-wrapper").removeClass("wide");
+              }
+          });
+      });
+  </script>
+
+
+  <script src="./assets/js/custom.js"></script>
+</body>
+</html>
